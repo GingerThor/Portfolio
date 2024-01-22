@@ -5,10 +5,8 @@ while (i <= 5)
 {
     if (number % 2 == 1)
     { 
-        document.write("<p>" + number + "/n</p>");
+        document.write("<p>" + number + "</p>");
     }
     number++;
     i++;
 }
-
-document.write("hello world");
