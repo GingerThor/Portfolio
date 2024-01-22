@@ -3,11 +3,12 @@ let i = 1;
 
 while (i <= 5)
 {
-    var test = number % 2;
-    if (test == 1)
+    if (number % 2 == 1)
     { 
         document.write("<p>" + number + "/n</p>");
     }
     number++;
     i++;
 }
+
+document.write("hello world");
