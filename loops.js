@@ -2,7 +2,7 @@ let number = 5;
 let i = 1;
 
 var test = number % 2;
-document.write(test)
+document.write(test);
 //while (i <= 5)
 //{
 //    if (number % 2 == 1)
@@ -12,4 +12,4 @@ document.write(test)
 //    number++;
 //    i++;
 //}
-document.write("Hello World");
+//document.write("Hello World");
