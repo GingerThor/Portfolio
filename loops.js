@@ -1,9 +1,9 @@
 let number = 5;
 let i = 1;
 
-while (i<=5)
+while (i <= 5)
 {
-    if (favoriteNumber % 2 == 1)
+    if (number % 2 == 1)
     { 
         document.write("<p>" + number + "/n</p>");
     }
