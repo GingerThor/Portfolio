@@ -5,7 +5,7 @@ while (i <= 5)
 {
     if (number % 2 == 1)
     { 
-        document.write("<p>" + number + "</p>");
+        document.write(`<p>${number}</p>`);
     }
     number++;
     i++;
