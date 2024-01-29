@@ -9,7 +9,7 @@ function isOdd (number, mathFunction)
 {
     if (number % 2 == 0)
     { 
-        number = mathFunction(number);
+        number = mathFunction;
     }
     else
     {
