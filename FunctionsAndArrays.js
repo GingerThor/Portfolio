@@ -19,7 +19,7 @@ function isOdd (number, mathFunction)
 
 function Print (message)
 {
-    document.write(message);
+    document.write(message + "/n");
     console.log(message);
 }
 
