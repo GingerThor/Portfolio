@@ -25,5 +25,5 @@ function Print (message)
 
 for (number in array)
 {
-    isOdd(number, oneMore(number))
+    isOdd(number, oneMore(number));
 }
