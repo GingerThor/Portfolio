@@ -20,7 +20,7 @@ function isOdd (number, mathFunction)
 function Print (message)
 {
     document.write(message);
-    console.write(message);
+    console.log(message);
 }
 
 for (number in array)
