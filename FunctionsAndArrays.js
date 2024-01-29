@@ -1,10 +1,4 @@
 let array = [1,2,3,4];
-
-for (number in array)
-{
-    isOdd(number, oneMore(number))
-}
-
 let oneMore = function (number)
 {
     let result  = number ++;
@@ -27,4 +21,9 @@ function Print (message)
 {
     document.write(message);
     console.write(message);
+}
+
+for (number in array)
+{
+    isOdd(number, oneMore(number))
 }
