@@ -1,12 +1,11 @@
 const div = document.querySelector("div");
 const divText = div.textContent;
-let count = 1;
 
-for (count <= 5; count ++;)
+for (let count = 1; count <= 5; count ++)
 {
     let text  = "";
     let innerCount = count;
-    for (innerCount > 0; innerCount --;)
+    for (let innerCount = count; innerCount > 0; innerCount --)
     {
         text = text + "*";
     }
