@@ -3,6 +3,12 @@ body
     background-color: Orangered;
 }
 
+h1
+{
+    margin-right: auto;
+    margin-Left: auto;
+}
+
 div
 {
     outline: 2px solid black;
