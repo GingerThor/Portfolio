@@ -4,7 +4,6 @@ const divText = div.textContent;
 for (let count = 1; count <= 5; count ++)
 {
     let text  = "";
-    let innerCount = count;
     for (let innerCount = count; innerCount > 0; innerCount --)
     {
         text = text + "*";
