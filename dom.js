@@ -1,4 +1,5 @@
 const div = document.querySelector("div");
+document.querySelector("button").addEventListener("click", colorChange);
 const divText = div.textContent;
 
 for (let count = 1; count <= 5; count ++)
@@ -12,4 +13,9 @@ for (let count = 1; count <= 5; count ++)
     const paragraphText = document.createTextNode(text);
     newParagraph.appendChild(paragraphText);
     div.appendChild(newParagraph);
+}
+
+const colorChange = () =>
+{
+    document.write(`<p>It Works</p>`)
 }
