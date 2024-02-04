@@ -6,7 +6,7 @@ for (count <= 5; count ++;)
 {
     let text  = "";
     let innerCount = count;
-    for (innerCount > 0; innnerCount --;)
+    for (innerCount > 0; innerCount --;)
     {
         text = text + "*";
     }
