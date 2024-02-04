@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
     const colorChange = () =>
     {
-        body.style.backgroundColor = 'blue';
+        body.style.backgroundColor = 'grey';
         div.style.backgroundColor = 'orangered';
     }
 
