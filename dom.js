@@ -12,5 +12,4 @@ for (let count = 1; count <= 5; count ++)
     const paragraphText = document.createTextNode(text);
     newParagraph.appendChild(paragraphText);
     div.appendChild(newParagraph);
-    document.write(`<p>${text}</p>`);
 }
