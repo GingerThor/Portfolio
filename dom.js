@@ -1,6 +1,8 @@
 const div = document.querySelector("div");
-document.querySelector("button").addEventListener("click", colorChange);
+const button = document.querySelector("button")
 const divText = div.textContent;
+
+button.addEventListener("click", colorChange);
 
 for (let count = 1; count <= 5; count ++)
 {
