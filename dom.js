@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => 
 {
     const div = document.querySelector("div");
-    const button = document.querySelector("button")
+    const body = document.querySelector("body");
+    const button = document.querySelector("button");
 
     const colorChange = () =>
     {
+        body.style.backgroundColor = 'blue';
         div.style.backgroundColor = 'orangered';
     }
 
