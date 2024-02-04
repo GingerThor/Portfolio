@@ -1,12 +1,12 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => 
+{
+    const div = document.querySelector("div");
+    const button = document.querySelector("button")
 
     const colorChange = () =>
     {
-        document.write(`<p>It Works</p>`)
+        div.style.backgroundColor = 'orangered';
     }
-
-    const div = document.querySelector("div");
-    const button = document.querySelector("button")
 
     button.addEventListener("click", colorChange);
 
