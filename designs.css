@@ -5,7 +5,8 @@ body
 
 div
 {
-    outline: 10px solid black;
+    outline: 2px solid black;
     width: 80%;
-    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
