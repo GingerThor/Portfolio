@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
     const redButton = () =>
     {
-        if (button.style.backgroundColor == green)
+        if (button.style.backgroundColor == "green")
         {
             div.firstChild.nodeValue = "All is Fine"
             button.style.backgroundColor = "red";
