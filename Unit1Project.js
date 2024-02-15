@@ -6,7 +6,10 @@ document.addEventListener("DOMContentLoaded", () =>
 
     const redButton = () =>
     {
-        div.text = "For the love of god you clicked the giant red button";
+        div
+        const text = "For the love of god you clicked the giant red button";
+        const divText = document.createTextNode(text);
+        div.appendChild(divText);
     }
 
     button.addEventListener("click", redButton);
