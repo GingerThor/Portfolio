@@ -6,7 +6,16 @@ document.addEventListener("DOMContentLoaded", () =>
 
     const redButton = () =>
     {
-        div.firstChild.nodeValue = "For the love of god you clicked the giant red button";
+        if (button.style.backgroundColor == green)
+        {
+            div.firstChild.nodeValue = "All is Fine"
+            button.style.backgroundColor = "red";
+        }
+        else
+        {
+            div.firstChild.nodeValue = "For the love of god you clicked the giant red button";
+            button.style.backgroundColor = "green";
+        }
     }
 
     button.addEventListener("click", redButton);
