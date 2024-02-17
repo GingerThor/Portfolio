@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
     const redButton = () =>
     {
-        var rows = document.getElementById("size").TEXT_NODE;
+        var rows = document.querySelector("#size").value;
 
         if (button.style.backgroundColor == "green")
         {
