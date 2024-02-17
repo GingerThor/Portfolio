@@ -13,7 +13,9 @@ document.addEventListener("DOMContentLoaded", () =>
             div.firstChild.nodeValue = "All is Fine"
             button.style.backgroundColor = "red";
 
-            for (let count = 1; count <= rows; count ++)
+            var size = parseInt(rows);
+
+            for (let count = 1; count <= size; count ++)
             {
                 const newParagraph = document.createElement("p");
                 let text  = "";
