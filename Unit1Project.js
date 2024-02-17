@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () =>
         {
             div.firstChild.nodeValue = "For the love of god you clicked the giant red button";
             button.style.backgroundColor = "green";
+            div.firstChild.nextSibling
         }
     }
 
