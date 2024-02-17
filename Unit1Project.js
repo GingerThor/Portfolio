@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => 
 {
     const div = document.querySelector("div");
-    const body = document.querySelector("body");
     const button = document.querySelector("button");
 
     const redButton = () =>
