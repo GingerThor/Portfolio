@@ -1,4 +1,4 @@
-export class Sword
+class Sword
 {
     constructor(name)
     {
