@@ -7,6 +7,7 @@ export class Sword
 
     logSword()
     {
+        document.write(`<p>${Name}</p>`);
         console.log(Name);
     }
 }
