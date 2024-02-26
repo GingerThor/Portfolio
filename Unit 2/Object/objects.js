@@ -1,4 +1,4 @@
-var katana = new Sword("Katana");
+//var katana = new Sword("Katana");
 var scimitar = new Sword("Scimitar");
-katana.logSword;
+///katana.logSword;
 scimitar.logSword;
