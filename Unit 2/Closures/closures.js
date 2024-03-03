@@ -12,13 +12,13 @@ function CreateCharacter (Name, HP, ...Moves) {
         },
         getMoves() {
             var attacks = document.querySelector("#moves").value;
-            for(var move of attacks)
+            for(var move of moves)
             {
                 const newParagraph = document.createElement("p");
                 let text = move;
                 const paragraphText = document.createTextNode(text);
                 newParagraph.appendChild(paragraphText);
-                div.appendChild(newParagraph);
+                attacks.appendChild(newParagraph);
             }
             return moves;
         }
