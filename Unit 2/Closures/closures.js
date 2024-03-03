@@ -23,4 +23,4 @@ function CreateFunction (Name, HP, ...Moves)
 
 var NPC = CreateFunction("Bob", 23, "Bob's Spinning Slash", "Bob's Screaming Death");
 
-document.write(`<p>${NPC.getMoves}</p>`);
+document.write(`<p>${NPC.getMoves()}</p>`);
