@@ -27,4 +27,6 @@ function CreateCharacter (Name, HP, ...Moves) {
 
 var NPC = CreateCharacter("Bob", 23, "Bob's Spinning Slash", "Bob's Screaming Death", "Bob's Decay", "Bob's Return");
 
-document.write(`<p>${NPC.getMoves()}</p>`);
+NPC.getMoves();
+console.log(NPC.getHP());
+console.log(NPC.getName());
