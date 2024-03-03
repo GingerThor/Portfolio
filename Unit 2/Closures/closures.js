@@ -30,6 +30,6 @@ document.addEventListener("DOMContentLoaded", () =>
     var NPC = CreateCharacter("Bob", 23, "Bob's Spinning Slash", "Bob's Screaming Death", "Bob's Decay", "Bob's Return");
 
     NPC.getMoves();
-    console.log(NPC.getHP());
+    console.log("HP: " + NPC.getHP());
     console.log(NPC.getName());
 });
