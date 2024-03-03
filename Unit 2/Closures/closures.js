@@ -1,26 +1,30 @@
-function CreateFunction (Name, HP, ...Moves)
-{
+function CreateCharacter (Name, HP, ...Moves) {
     let hp = HP;
     let name = Name;
     let moves = Moves;
 
-    return 
-    {
-        getHP()
-        {
+    return {
+        getHP() {
             return hp;
-        }
-        getName()
-        {
+        },
+        getName() {
             return name;
-        }
-        getMoves()
-        {
+        },
+        getMoves() {
+            var attacks = document.querySelector("#moves").value;
+            for(var move of attacks)
+            {
+                const newParagraph = document.createElement("p");
+                let text = move;
+                const paragraphText = document.createTextNode(text);
+                newParagraph.appendChild(paragraphText);
+                div.appendChild(newParagraph);
+            }
             return moves;
         }
     };
 }
 
-var NPC = CreateFunction("Bob", 23, "Bob's Spinning Slash", "Bob's Screaming Death");
+var NPC = CreateCharacter("Bob", 23, "Bob's Spinning Slash", "Bob's Screaming Death", "Bob's Decay", "Bob's Return");
 
 document.write(`<p>${NPC.getMoves()}</p>`);
