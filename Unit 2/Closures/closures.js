@@ -11,7 +11,7 @@ function CreateCharacter (Name, HP, ...Moves) {
             return name;
         },
         getMoves() {
-            var attacks = document.querySelector("#moves").value;
+            var attacks = document.querySelector("#moves");
             for(var move of moves)
             {
                 const newParagraph = document.createElement("p");
