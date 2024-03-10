@@ -16,7 +16,7 @@ async function race(){
         }, 5000);
     });
     var result = new Array();
-    return result[await runner1Go, await runner2Go, await loser];
+    return await result[await runner1Go, await runner2Go, loser];
 };
 
 race().then(function(result){
