@@ -28,7 +28,7 @@ class Berserker
         console.log(this.Name + " lets a scream out full of the rage of a one ounce weasel.");
         console.log("Name " + this.Name);
         console.log("Level " + this.Level);
-        console.log("Rounds of rage" + this.RoundsOfRage);
+        console.log("Rounds of rage " + this.RoundsOfRage);
         console.log("HP " + this.Hp);
     }
 }
